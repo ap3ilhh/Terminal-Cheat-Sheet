@@ -150,5 +150,7 @@ git diff --stat HEAD
 
 
 
-## Changing Text Editor Settings
-Sublime as default text editor		sudo ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/bin/subl
+## Sublime as default text editor
+cd ~
+mkdir bin
+ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
