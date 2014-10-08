@@ -146,3 +146,9 @@ git diff origin..master > my.patch  # pipes a diff into my.patch
 
 # get diffstat of uncommitted work
 git diff --stat HEAD
+
+
+
+
+## Changing Text Editor Settings
+Sublime as default text editor		sudo ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/bin/subl
