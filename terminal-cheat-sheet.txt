@@ -164,6 +164,7 @@ sudo ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /u
 
 
 ## LocalDev
+cd ~/code/vagrant
 ./localdev suspend
 ./localdev resume
 ./localdev restore
