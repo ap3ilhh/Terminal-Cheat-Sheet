@@ -34,6 +34,8 @@ git push origin <branch> 			# Push branch to remote
 git branch -d <branchname>   	# deletes local branch
 git push origin :<branchname>	# deletes remote branch
 
+git subtree push --prefix docs origin gh-pages  # push docs as subtree to gh-pages
+
 
 
 ### Clone Directory
